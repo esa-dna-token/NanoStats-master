@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "NanoStats",
+    "description": "Clean, ad-free crypto mining stats for Nanopool",
+    "slug": "nanostats",
+    "privacy": "public",
+    "sdkVersion": "24.0.0",
+    "version": "0.1.2",
+    "primaryColor": "#cccccc",
+    "icon": "./assets/icons/app-icon.png",
+    "loading": {
+      "icon": "./assets/icons/loading-icon.png",
+      "hideExponentText": false
+    },
+    "packagerOpts": {
+      "assetExts": ["ttf", "mp4"]
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier":"com.davidgamero.nanostats",
+      "buildNumber":"3"
+    },
+    "android": {
+    	"package": "com.davidgamero.nanostats",
+      "versionCode": 2
+    },
+    "androidStatusBar": {
+    	barStyle: "light-content",
+    	backgroundColor: "#FFFFFF",
+    }
+  }
+}
